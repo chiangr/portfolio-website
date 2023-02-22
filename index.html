@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <title>Ryan's Website</title>
+
+    <style>
+        :root {
+            --bgd:white;
+            --bgd-2:#DCDCDC;
+            --main:#504B43;
+            --secondary:#989C94;
+            --accent:#F2545B;
+        }
+
+        * {
+            font-family: 'Inter', sans-serif;
+            color:var(--main);
+        }
+
+        .hero-ctn {
+            margin-top: 100px;
+        }
+
+        .hero-img-ctn {
+            display:flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-cnt-ctn {
+            display:flex;
+            justify-content: center;
+            flex-flow: column;
+        }
+
+        .hero-ctn h1{
+            font-size:5em;
+            font-weight:700;
+        }
+
+        .hero-ctn h2{
+            font-size:4em;
+            font-weight:400;
+            color: var(--secondary);
+        }
+
+        .hero-ctn p{
+            font-weight:400;
+            color: var(--secondary);
+            margin-top:10px;
+            margin-left:3px;
+        }
+
+        .hero-ctn img {
+            height:250px;
+            width:250px;
+            border-radius: 50%;
+            border: var(--main) 10px solid;
+        }
+
+        .list-ctn-ctn {
+            margin-top:100px;
+        }
+
+        .list-ctn {
+            margin-left:10px;
+            margin-right:10px;
+            color:var(--bgd-2);
+        }
+
+        .list-ctn h2{
+            font-weight:bold;
+            background-color: transparent;
+            margin-top: 10px;
+        }
+
+        .list-ctn p{
+            background-color: transparent;
+        }
+
+        .list-txt-ctn {
+            border-radius: 10px;
+            background-color:var(--bgd-2);
+            padding:15px 20px;
+            margin-bottom:30px;
+        }
+
+        .list-txt-ctn img {
+            width:100%;
+        }
+
+        .list-txt-ttl-ctn {
+            border-radius: 10px;
+            background-color:var(--secondary);
+            color:var(--bgd);
+            padding:10px 20px;
+            margin-bottom:30px;
+        }
+
+        .title {
+            border: var(--bgd-2) 10px solid;
+            background-color: var(--bgd);
+            color: var(--main);
+            margin-bottom:-50px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container hero-ctn">
+        <div class="row">
+            <div class="col-md hero-cnt-ctn">
+                <h2>Hi! I am ...</h2>
+                <h1>Ryan Chiang</h1>
+                <p>Mechanical Engineer @ UC Berkeley</p>
+                <p>
+                    <a href="https://docs.google.com/spreadsheets/d/1v46gPD4ORLh1on7YOK4YSqf4FyozEc9JsqnMzh5E7Qs/edit?usp=sharing">Portfolio List</a>
+                     | 
+                    <a href="https://www.linkedin.com/in/chiangr/">LinkedIn</a>
+                     | 
+                    <a href="ryanchiang_resume_2023.pdf">Resume</a>
+                </p>
+            </div>
+            <div class="col-md hero-img-ctn">
+                <img src="images/ryan-headshot.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container list-ctn-ctn">
+        <div class="row">
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn title">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container list-ctn-ctn">
+        <div class="row">
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn">
+                    <h2>MOD: Modular Furniture</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Website</h2>
+                    <p>Skills: HTML, CSS, Javascript, Bootstrap, Website Development</p>
+                    <a href="https://chiangr.github.io">Website</a>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Low/Mid Fi Prototyping</h2>
+                    <p>Skills: Solidworks, Prototyping, 3D Printing</p>
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="col-md list-ctn">
+                <div class="list-txt-ctn">
+                    <img src="images/prototype/desk.png">
+                </div>
+                <div class="list-txt-ctn">
+                    <img src="images/prototype/leg-end.png">
+                </div>
+            </div>
+            <div class="col-md list-ctn">
+                <div class="list-txt-ctn">
+                    <img src="images/prototype/screw-top.png">
+                </div>
+                <div class="list-txt-ctn">
+                    <img src="images/prototype/leg.png">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn">
+                    <h2>Wooden Bedside Shoe Storage Bench</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Main Buildout</h2>
+                    <p>Skills: Carpentry, Jigsaw, Orbital Sanding</p>
+                </div>
+                <div class="list-txt-ttl-ctn" style="background-color:var(--accent);">
+                    <h2>Automatic Coffee Maker</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Housing Design</h2>
+                    <p>Skills: Solidworks, Prototyping, 3D Printing</p>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Electronics</h2>
+                    <p>Skills: ESP32, Circuitry, Thermocoupler, Servo Motors</p>
+                </div>
+            </div>
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn" style="background-color:var(--accent);">
+                    <h2>Wind Turbine</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Structural Design</h2>
+                    <p>Skills: Solidworks, Prototyping, 3D Printing, FEA Analysis</p>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Blade Construction</h2>
+                    <p>Skills: Solidworks, Prototyping, 3D Printing, FEA Analysis</p>
+                </div>
+                <div class="list-txt-ttl-ctn">
+                    <h2>Wooden Console Table</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Main Buildout</h2>
+                    <p>Skills: Carpentry, Jigsaw, Orbital Sanding</p>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Mechanical Push Latch</h2>
+                    <p>Skills: Fusion 360, Prototyping, 3D Printing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container list-ctn-ctn">
+        <div class="row">
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn title">
+                    <h2>Want to know more about me?</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container list-ctn-ctn">
+        <div class="row">
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn">
+                    <h2>Hometown</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>Walnut, CA</h3>
+                </div>
+                <div class="list-txt-ttl-ctn">
+                    <h2>Academic Interests</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>Mechanical Design</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>Carpentry</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>Metal Working</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>Manufacturing and Fabrication</h3>
+                </div>
+            </div>
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn">
+                    <h2>Hobbies</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Skiing</h2>
+                    <h3>I love to hit the slopes a few times a year when I get the chance to! It is an amazing getaway to just have fun!</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h2>Gym</h2>
+                    <h3>Working out is an essential part of my day. I use exercise to motivate me in all other aspects in life!</h3>
+                </div>
+            </div>
+            <div class="col-md list-ctn">
+                <div class="list-txt-ttl-ctn">
+                    <h2>Fun Facts</h2>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>I memorized the first half of B.O.B.'s hit song: Airplanes</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>I once face planted trying to front flip from 20 feet in the air!</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>I know how to drift a dune buggy! I don't know how to drive stick, though.</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>I bought a 3D printer from someone for only $10!</h3>
+                </div>
+                <div class="list-txt-ctn">
+                    <h3>My middle name is James.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
